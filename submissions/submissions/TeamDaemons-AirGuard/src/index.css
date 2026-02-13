@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-950 text-slate-50 antialiased overflow-hidden;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Custom Scrollbar for the "Hacker" feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-900;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700 rounded-full;
+}
